@@ -14,7 +14,7 @@ nav{
 nav ul{
     display:flex;
     list-style-type:none;
-    height:101px;
+    height:50px;
     background-color:black;
     color:white;
     align-items:center;
@@ -26,8 +26,8 @@ nav ul li{
 }
 
 .brand img{
-    width:97px;
-    padding:0 25px;
+    width:50px;
+    padding:0 2px;
 }
 
 .brand{
@@ -35,4 +35,31 @@ nav ul li{
     align-items:center;
     font-weight: bolder;
     font-size: 1.6rem;
+}
+
+.container{
+    height:75vh;
+
+}
+
+.bottom{
+
+    position:sticky;
+    height: 100px;
+    background-color:black;
+    display: flex;
+    justify-content:center;
+    color:white;
+    align-items: center;
+    flex-direction: column; 
+}
+
+#myprogressbar{
+    width:80vw;
+}
+
+
+.icons{
+margin-top: 15px;
+
 }
