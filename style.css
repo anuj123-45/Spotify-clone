@@ -1,65 +1,117 @@
-body{
-    background-color:antiquewhite;
+body {
+  background-color: antiquewhite;
 }
 
-*{
-    margin:0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-nav{
-    font-family: 'Ubuntu','sans-serif';
+nav {
+  font-family: "Ubuntu", "sans-serif";
 }
 
-nav ul{
-    display:flex;
-    list-style-type:none;
-    height:50px;
-    background-color:black;
-    color:white;
-    align-items:center;
-    font-size: 20px;    
+nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 50px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  font-size: 20px;
 }
 
-nav ul li{
-    padding:0 10px;
+nav ul li {
+  padding: 0 10px;
 }
 
-.brand img{
-    width:50px;
-    padding:0 2px;
+.brand img {
+  width: 50px;
+  padding: 0 2px;
 }
 
-.brand{
-    display: flex;
-    align-items:center;
-    font-weight: bolder;
-    font-size: 1.6rem;
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.6rem;
 }
 
-.container{
-    height:75vh;
+.container {
+  height: 72vh;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  margin: 20px auto;
+  width: 80%;
+height: 700px;
+  border-radius: 12px;
+  padding: 50px;
+  background-image:url('bg.jpg');
+}
+
+.bottom {
+  /* position: sticky; */
+  height: 15vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  flex-direction: column;
+}
+
+#myprogressbar {
+  width: 80vw;
+}
+
+.icons {
+  margin-top: 15px;
+}
+
+
+.songitem{
+
+height:50px;
+display: flex;
+background-color: whitesmoke;
+
+color:black;
+margin:12px 0;
+justify-content:space-between;
+align-items: center;
+border-radius: 30px;
+
 
 }
 
-.bottom{
-
-    position:sticky;
-    height: 100px;
-    background-color:black;
-    display: flex;
-    justify-content:center;
-    color:white;
-    align-items: center;
-    flex-direction: column; 
+.songitem img{
+    width:43px;
+    margin:0 23px;
+    border-radius: 30px;
 }
 
-#myprogressbar{
-    width:80vw;
+.timestamp{
+    margin:0 23px;
 }
 
+.timestamp i{
 
-.icons{
-margin-top: 15px;
+    cursor:pointer;
+}
 
+.songitemcontainer{
+    margin-top:30px;
+}
+
+.songinfo{
+    margin-top:22px;
+    position:absolute;
+    left:10vw;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition:opacity 1s ease-in;
 }
